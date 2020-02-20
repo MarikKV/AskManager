@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+header{
+    padding: 5px;
+    background-color: rgb(62, 62, 102);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_logo{
+    display: flex;
+    font-size: 2rem;
+}
+.menu_logo_item{
+    margin-left: 10px;
+}
+.menu_items{
+    font-size: 1.5rem;
+    animation-delay: 1.5s;
+}
+.ask{
+    color: white;
+    animation-delay: 0.5s;
+}
+.manager{
+    color: rgb(157, 157, 224);
+    animation-delay: 1s;
+}
+.active{
+    padding: 5px;
+    border: 1px solid snow;
+    border-radius: 5px;
+}
