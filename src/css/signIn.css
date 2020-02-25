@@ -8,6 +8,24 @@
     animation-delay: 1s;
     animation-duration: 1.2s;
 }
+.signUp{
+    width: 40%;
+    background-color: rgb(209, 206, 203);
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    animation-duration: 1.2s;
+}
 form label{
     font-size: 2rem;
+}
+.v-h{
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+.v-v{
+    visibility: visible;
 }
